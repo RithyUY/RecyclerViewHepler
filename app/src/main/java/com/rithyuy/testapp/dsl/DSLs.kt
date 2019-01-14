@@ -1,8 +1,8 @@
 package com.rithyuy.testapp.dsl
 
-import android.support.v7.widget.AppCompatButton
-import android.support.v7.widget.AppCompatTextView
-import android.support.v7.widget.LinearLayoutCompat
+import androidx.appcompat.widget.AppCompatButton
+import androidx.appcompat.widget.AppCompatTextView
+import androidx.appcompat.widget.LinearLayoutCompat
 import android.view.ViewGroup
 
 fun ViewGroup.verticalGroup(block: LinearLayoutCompat.() -> Unit) {
